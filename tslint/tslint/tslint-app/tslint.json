@@ -1,0 +1,20 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "jsRules": {},
+    "rules": {
+      "jsx-no-lambda": false,
+      "jsx-no-multiline-js": false,
+      "jsx-no-bind": false,
+      "no-console": true,
+      "no-var-keyword": true,
+      "prefer-const": true
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "rulesDirectory": []
+  }
+  
